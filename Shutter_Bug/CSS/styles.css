@@ -1,0 +1,76 @@
+/*  
+	Style sheet for ShutterBugg project chapter 5 
+	Author: Brandon Locks
+	Date: 5/31/19
+	Filename: styles.css
+*/
+body {
+	background-color: LightGoldenRodYellow; 
+}
+
+.container {
+	max-width: 928px;
+}
+
+
+.main {
+	height: 550px;
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 68px;
+	text-shadow: SlateGray   4px 2px 4px;
+	transition: text-shadow 2s;	
+	}
+	
+.main h1:hover {
+	text-shadow: magenta 4px 4px 14px;	
+		
+}
+
+.section h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.btn {
+	background-color: magenta;
+	color: white;
+	border-radius: 32px;
+	padding: 10px 40px;
+	
+}
+
+.section .row {
+	padding-top: 50px;
+	
+}
+
+.row h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.row p {
+	padding-top: 25px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 36px;
+}
+
+#store {
+	text-align: center;
+	padding-top: 50px;
+	border-bottom-style: solid;
+	padding-bottom: 25px;
+}
+
+.footer h1 {
+	padding-top: 25px;
+	font-size: 36px;
+}
+	
